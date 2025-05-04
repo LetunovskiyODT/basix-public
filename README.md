@@ -12,7 +12,7 @@
 [![Open Issues](https://img.shields.io/github/issues/LetunovskiyODT/basix-public.svg)]()
 [![Pull Requests](https://img.shields.io/github/issues-pr/LetunovskiyODT/basix-public.svg)]()
 
-*Базовый компилятор BASIX с открытым исходным кодом*
+*Базовый компилятор BASIX*
 
 [📖 Документация](docs/) | [🛠️ Установка](#установка) | [💡 Примеры](#примеры) | [📝 Лицензия](LICENSE)
 
