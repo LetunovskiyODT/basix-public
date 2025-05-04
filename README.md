@@ -29,37 +29,46 @@ BASIX - это современный язык программирования,
 
 ## Установка
 
+### Windows
+```powershell
+# Через winget
+winget install BASIX.Basix
+
+# Или скачайте последнюю версию с GitHub Releases
+```
+
+### macOS
 ```bash
-# Windows
-winget install BASIX.BASIX
+# Скачайте последнюю версию с GitHub Releases
+curl -L https://github.com/BASIX/basix-public/releases/latest/download/basix-latest-macos-x86_64 -o basix
+chmod +x basix
+sudo mv basix /usr/local/bin/
+```
 
-# Linux
-curl -sSL https://basixlang.org/install.sh | bash
-
-# macOS
-brew install basix
+### Linux
+```bash
+# Скачайте последнюю версию с GitHub Releases
+curl -L https://github.com/BASIX/basix-public/releases/latest/download/basix-latest-linux-x86_64 -o basix
+chmod +x basix
+sudo mv basix /usr/local/bin/
 ```
 
 ## Быстрый старт
 
-```basix
-# Hello World
-print "Hello, World!"
+1. Создайте файл `hello.bas`:
+```basic
+PRINT "Hello, BASIX!"
+```
 
-# Базовые операции
-let x = 10
-let y = 20
-print x + y
-
-# Функции
-fn add(a: int, b: int) -> int {
-    return a + b
-}
+2. Запустите:
+```bash
+basix hello.bas
 ```
 
 ## Документация
 
-Полная документация доступна на [basixlang.org/docs](https://basixlang.org/docs)
+- [Быстрый старт](docs/quickstart.md)
+- [Нативный GUI](docs/native_gui.md)
 
 ## Сообщество
 
