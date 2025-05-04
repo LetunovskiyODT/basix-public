@@ -1,3 +1,23 @@
+# 🚀 BASIX
+
+<div align="center">
+
+![BASIX Logo](https://via.placeholder.com/800x200/1a1a1a/ffffff?text=BASIX)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Zig Version](https://img.shields.io/badge/Zig-0.11.0-purple.svg)](https://ziglang.org)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey.svg)]()
+[![Contributors](https://img.shields.io/github/contributors/LetunovskiyODT/basix-public.svg)]()
+[![Last Commit](https://img.shields.io/github/last-commit/LetunovskiyODT/basix-public.svg)]()
+[![Open Issues](https://img.shields.io/github/issues/LetunovskiyODT/basix-public.svg)]()
+[![Pull Requests](https://img.shields.io/github/issues-pr/LetunovskiyODT/basix-public.svg)]()
+
+*Базовый компилятор BASIX с открытым исходным кодом*
+
+[📖 Документация](docs/) | [🛠️ Установка](#установка) | [💡 Примеры](#примеры) | [📝 Лицензия](LICENSE)
+
+</div>
+
 # BASIX Language
 
 BASIX - это современный язык программирования, разработанный для простоты использования и высокой производительности.
