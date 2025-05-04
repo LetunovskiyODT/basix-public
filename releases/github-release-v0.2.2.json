@@ -1,0 +1,20 @@
+{
+  "tag_name": "v0.2.2",
+  "name": "BASIX v0.2.2",
+  "body": "## Что нового\n\n- Улучшена поддержка CLI-команд\n- Обновлена работа команд run, build, add, test, version и help\n- Переход на локальные сборки вместо CI/CD\n- Исправлен ряд ошибок в компиляторе и виртуальной машине\n\n## Контрольная сумма\n\n```\nSHA256: DF69FBFF995C5B69C8AC816F8D97BE7B9250DD897A7EAD3DE5728E1EC40DA537\n```",
+  "draft": false,
+  "prerelease": false,
+  "make_latest": "true",
+  "assets": [
+    {
+      "name": "basix-v0.2.2-windows-x86_64.exe",
+      "label": "BASIX для Windows x86_64",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "name": "basix-v0.2.2-windows-x86_64.exe.sha256",
+      "label": "SHA256 хеш для Windows x86_64",
+      "content_type": "text/plain"
+    }
+  ]
+}

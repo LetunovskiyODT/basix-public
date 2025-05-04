@@ -9,6 +9,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/LetunovskiyODT/basix-public.svg)]()
 [![Open Issues](https://img.shields.io/github/issues/LetunovskiyODT/basix-public.svg)]()
 [![Pull Requests](https://img.shields.io/github/issues-pr/LetunovskiyODT/basix-public.svg)]()
+[![Latest Release](https://img.shields.io/badge/release-v0.2.2-blue.svg)](releases/RELEASE-v0.2.2.md)
 
 *Базовый компилятор BASIX*
 
@@ -27,6 +28,13 @@ BASIX - это современный язык программирования,
 - Богатая стандартная библиотека
 - Кроссплатформенность
 
+## 🆕 Последний релиз
+
+**[BASIX v0.2.2](releases/RELEASE-v0.2.2.md)** - 04.05.2025
+- Улучшена поддержка CLI-команд
+- Переход на локальные сборки вместо CI/CD
+- [Скачать для Windows x86_64](releases/basix-v0.2.2-windows-x86_64.exe)
+
 ## Установка
 
 ### Windows
@@ -35,6 +43,7 @@ BASIX - это современный язык программирования,
 winget install BASIX.Basix
 
 # Или скачайте последнюю версию с GitHub Releases
+# https://github.com/LetunovskiyODT/basix-public/releases/latest
 ```
 
 ### macOS
