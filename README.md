@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![BASIX Logo](https://via.placeholder.com/800x200/1a1a1a/ffffff?text=BASIX)
-
 [![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 [![Zig Version](https://img.shields.io/badge/Zig-0.11.0-purple.svg)](https://ziglang.org)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-lightgrey.svg)]()
