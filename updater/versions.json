@@ -1,0 +1,26 @@
+{
+  "versions": [
+    {
+      "version": "0.2.0",
+      "status": "ended"
+    },
+    {
+      "version": "0.2.1",
+      "status": "ended"
+    },
+    {
+      "version": "0.2.2",
+      "status": "ending",
+      "download_url": "https://github.com/LetunovskiyODT/basix-public/raw/master/releases/basix-v0.2.2-windows-x86_64.exe",
+      "changelog": "- Улучшена поддержка CLI-команд\n- Обновлена работа команд run, build, add, test, version и help\n- Переход на локальные сборки вместо CI/CD\n- Исправлен ряд ошибок в компиляторе и виртуальной машине"
+    },
+    {
+      "version": "0.3.0",
+      "status": "operable",
+      "download_url": "https://github.com/LetunovskiyODT/basix-public/releases/download/v0.3.0/basix-v0.3.0-windows-x86_64.exe",
+      "changelog": "- Добавлена поддержка переменных (42 to answer)\n- Добавлена поддержка массивов ([1 2 3] -> arr)\n- Добавлена поддержка словарей ({\"key\" \"value\"})\n- Добавлена поддержка импорта модулей\n- Добавлена поддержка циклов do...loop\n- Добавлена поддержка комментариев #\n- Расширена поддержка арифметики (включая %)"
+    }
+  ],
+  "latest": "0.3.0",
+  "min_supported": "0.2.2"
+}
