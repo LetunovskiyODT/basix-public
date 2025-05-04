@@ -1,0 +1,25 @@
+# Zig build artifacts
+zig-out/
+zig-cache/
+build/
+
+# IDE files
+.vscode/
+.idea/
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Debug files
+*.pdb
+*.dbg
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/ 

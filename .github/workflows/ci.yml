@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install Zig
+      uses: korandoru/setup-zig@v1
+      with:
+        version: 0.11.0
+        
+    - name: Build
+      run: zig build
+      
+    - name: Run tests
+      run: zig build test
+      
+    - name: Check formatting
+      run: zig fmt --check .
+      
+    - name: Check documentation
+      run: |
+        if [ -f "docs/getting-started.md" ]; then
+          echo "Documentation exists"
+        else
+          echo "Documentation missing"
+          exit 1
+        fi 
