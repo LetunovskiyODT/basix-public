@@ -1,0 +1,38 @@
+name: Simple Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Zig
+        uses: korandoru/setup-zig@v1
+        with:
+          zig-version: '0.15.0-dev.451+a843be44a'
+
+      - name: Build
+        run: |
+          echo "Building Windows version..."
+          zig build -Doptimize=ReleaseFast
+          echo "Build completed"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: zig-out/bin/basix.exe
+          tag_name: ${{ github.ref_name }}
+          name: Simple Release ${{ github.ref_name }}
+          body: |
+            Simple Windows release of BASIX.
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
